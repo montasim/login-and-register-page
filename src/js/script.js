@@ -35,8 +35,8 @@ console.log({defaultDeviceHeight});
 console.log({deviceWidth});
 console.log({deviceHeight});
 
-window.addEventListener("orientationchange", function() {
-    if (window.orientation === 0) {
+screen.orientation.addEventListener("change", function() {
+    if (screen.orientation.type.includes("portrait")) {
         // Portrait mode
         console.log('Portrait');
     } else {
