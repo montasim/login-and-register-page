@@ -23,6 +23,37 @@
 
 <br/>
 
+### USED COLOR
+
+| Color      | Hex                                                          |
+|------------|--------------------------------------------------------------|
+| White      | ![#0a192f](https://via.placeholder.com/10/fff?text=+) `#fff` |
+| Navy | ![#112240](https://via.placeholder.com/10/162938?text=+) `#162938` |
+
+<br/>
+
+### USED RESOURCES
+
+- [WALLPAPER](./src/media/images/background.jpg)
+- [ICONS](https://ionic.io/ionicons)
+  - CLOSE ICON
+
+    > <ion-icon name="close"></ion-icon>
+
+  - USER ICON
+
+    > <ion-icon name="person"></ion-icon>
+
+  - EMAIL ICON
+
+    > <ion-icon name="mail"></ion-icon>
+
+  - PASSWORD ICON
+
+    > <ion-icon name="lock-closed"></ion-icon>
+
+<br/>
+
 #### 🔗 [LIVE SITE LINK](http://montasim-dev.web.app/login-and-register-page/)
 
 <br/>
