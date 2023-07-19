@@ -15,6 +15,16 @@
 
 <br/>
 
+<details>
+    <summary> PREVIEW </summary>
+    <br/>
+    <img loading="lazy" alt="Index page" src="./src/media/images/preview/index.png" />
+    <img loading="lazy" alt="Login page" src="./src/media/images/preview/login.png" />
+    <img loading="lazy" alt="Register page" src="./src/media/images/preview/register.png" />
+</details>
+
+<br/>
+
 ### USED TECHNOLOGY
 
 - HTML
