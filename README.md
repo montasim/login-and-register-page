@@ -20,6 +20,7 @@
 - [Used Technology](#used-technology)
 - [Used Colors](#used-colors)
 - [Used Resources](#used-resources)
+- [Extended Features](#extended-features)
 - [My Learning](#my-learning)
 	- [How to use multiple media queries?](#how-to-use-multiple-media-queries)
     - [How to access CSS variables using javascript?](#how-to-access-css-variables-using-javascript)
@@ -65,6 +66,15 @@
   - USER ICON `<ion-icon name="person"></ion-icon>`
   - EMAIL ICON `<ion-icon name="mail"></ion-icon>`
   - PASSWORD ICON `<ion-icon name="lock-closed"></ion-icon>`
+
+<br/>
+
+### EXTENDED FEATURES
+
+- Responsive design
+- Custom CSS variables
+- Manipulation of CSS variable using JavaScript
+- Device orientation detection
 
 <br/>
 
