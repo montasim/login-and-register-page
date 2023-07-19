@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --deviceWidth: 375px;
+    --deviceHeight: 667px;
+    --colorWhite: #fff;
+    --colorNavy: #162938;
+    --smallDeviceWidth: 375px;
+    --smallDeviceHeight: 667px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +47,7 @@ header {
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: #fff;
+    color: var(--colorWhite);
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -51,7 +60,7 @@ header {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: var(--colorWhite);
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -67,20 +76,20 @@ header {
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid var(--colorWhite);
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
-    color: #fff;
+    color: var(--colorWhite);
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
 }
 
 .navigation .btnLogin-popup:hover {
-    background: #fff;
-    color: #162938;
+    background: var(--colorWhite);
+    color: var(--colorNavy);
 }
 
 .wrapper {
@@ -140,9 +149,9 @@ header {
     right: 0;
     width: 45px;
     height: 45px;
-    background: #162938;
+    background: var(--colorNavy);
     font-size: 2em;
-    color: #fff;
+    color: var(--colorWhite);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,7 +162,7 @@ header {
 
 .form-box h2 {
     font-size: 2em;
-    color: #162938;
+    color: var(--colorNavy);
     text-align: center;
 }
 
@@ -161,7 +170,7 @@ header {
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #162938;
+    border-bottom: 2px solid var(--colorNavy);
     margin: 30px 0;
 }
 
@@ -171,7 +180,7 @@ header {
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #162938;
+    color: var(--colorNavy);
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
@@ -189,7 +198,7 @@ header {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: var(--colorNavy);
     font-weight: 600;
     padding: 0 35px 0 5px;
 }
@@ -198,13 +207,13 @@ header {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #162938;
+    color: var(--colorNavy);
     line-height: 57px;
 }
 
 .remember-forgot {
     font-size: .9em;
-    color: #162938;
+    color: var(--colorNavy);
     font-weight: 500;
     margin: -15px 0 15px;
     display: flex;
@@ -213,12 +222,12 @@ header {
 }
 
 .remember-forgot label input {
-    accent-color: #162938;
+    accent-color: var(--colorNavy);
     margin-right: 3px;
 }
 
 .remember-forgot a {
-    color: #162938;
+    color: var(--colorNavy);
     text-decoration: none;
 }
 
@@ -229,30 +238,150 @@ header {
 .btn {
     width: 100%;
     height: 45px;
-    background: #162938;
+    background: var(--colorNavy);
     border: none;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
-    color: #fff;
+    color: var(--colorWhite);
     font-weight: 500;
 }
 
 .login-register {
     font-size: .9em;
-    color: #162938;
+    color: var(--colorNavy);
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 
 .login-register p a {
-    color: #162938;
+    color: var(--colorNavy);
     text-decoration: none;
     font-weight: 600;
 }
 
 .login-register p a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navigation a {
+        font-size: .8em;
+        margin-left: 15px;
+    }
+
+    .navigation .btnLogin-popup {
+        width: 60px;
+        height: 30px;
+        font-size: .8em;
+        margin-left: 15px;
+    }
+
+    .wrapper {
+        margin: 50px 8px 0;
+        border-radius: 15px;
+    }
+
+    .wrapper .form-box {
+        padding: 20px;
+    }
+
+    .wrapper .icon-close {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5em;
+        border-bottom-left-radius: 15px;
+    }
+
+    .form-box h2 {
+        font-size: 1.5em;
+    }
+
+    .input-box {
+        height: 40px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        padding: 0 25px 0 5px;
+    }
+
+    .remember-forgot {
+        margin: -5px 0 15px;
+    }
+
+    .btn {
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        padding: 25px 30px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navigation a {
+        font-size: 1em;
+        margin-left: 20px;
+    }
+
+    .navigation .btnLogin-popup {
+        width: 100px;
+        height: 45px;
+        font-size: 1em;
+        margin-left: 25px;
+    }
+
+    .wrapper {
+        margin: 50px 8px 0;
+        border-radius: 20px;
+    }
+
+    .wrapper .form-box {
+        padding: 25px;
+    }
+
+    .wrapper .icon-close {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5em;
+        border-bottom-left-radius: 20px;
+    }
+
+    .form-box h2 {
+        font-size: 1.8em;
+    }
+
+    .input-box {
+        height: 55px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        padding: 0 30px 0 5px;
+    }
+
+    .remember-forgot {
+        margin: -5px 0 15px;
+    }
+
+    .btn {
+        height: 55px;
+    }
 }
