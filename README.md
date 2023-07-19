@@ -16,6 +16,16 @@
 <br/>
 <br/>
 
+## CONTENTS:
+- [Used Technology](#used-technology)
+- [Used Colors](#used-colors)
+- [Used Resources](#used-resources)
+- [My Learning](#my-learning)
+- [Live Site Link](#-live-site-link)
+- [Credit](#credit)
+
+<br/>
+
 <details>
     <summary> PREVIEW </summary>
     <br/>
@@ -34,7 +44,7 @@
 
 <br/>
 
-### USED COLOR
+### USED COLORS
 
 | Color      | Hex                                                          |
 |------------|--------------------------------------------------------------|
@@ -47,22 +57,76 @@
 
 - [WALLPAPER](./src/media/images/background.jpg)
 - [ICONS](https://ionic.io/ionicons)
-  - CLOSE ICON
+  - CLOSE ICON `<ion-icon name="close"></ion-icon>`
+  - USER ICON `<ion-icon name="person"></ion-icon>`
+  - EMAIL ICON `<ion-icon name="mail"></ion-icon>`
+  - PASSWORD ICON `<ion-icon name="lock-closed"></ion-icon>`
 
-    > <ion-icon name="close"></ion-icon>
+<br/>
 
-  - USER ICON
+### MY LEARNING
 
-    > <ion-icon name="person"></ion-icon>
+- HOW TO USE MULTIPLE MEDIA QUERY
 
-  - EMAIL ICON
+  ```css
+  @media only screen and (max-width: 480px) {
+  
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  
+  }
+  ```
+  
+- HOW TO ACCESS CSS VARIABLE USING JAVASCRIPT
+  ```css
+  :root {
+      --deviceWidth: 375px;
+      --deviceHeight: 667px;
+  }
+  ```
+  ```javascript
+  const root = document.querySelector(':root');
+  const defaultDeviceWidth = getComputedStyle(root).getPropertyValue('--deviceWidth');
+  const defaultDeviceHeight = getComputedStyle(root).getPropertyValue('--deviceHeight');
+  
+  console.log({defaultDeviceWidth});
+  console.log({defaultDeviceHeight});
+  ```
 
-    > <ion-icon name="mail"></ion-icon>
+- HOW TO CHANGE CSS VARIABLE VALUE USING JAVASCRIPT
+  ```css
+  :root {
+      --deviceWidth: 375px;
+      --deviceHeight: 667px;
+  }
+  ```
+  ```javascript
+  const root = document.querySelector(':root');
+  
+  root.style.setProperty('--deviceWidth', '480px');
+  root.style.setProperty('--deviceHeight', '768px');
+  
+  console.log({deviceWidth});
+  console.log({deviceHeight});
+  ```
 
-  - PASSWORD ICON
-
-    > <ion-icon name="lock-closed"></ion-icon>
-
+- HOW TO DETECT IF DEVICE IS ON PORTRAIT OR LANDSCAPE MODE?
+  ```javascript
+  screen.orientation.addEventListener("change", function() {
+      if (screen.orientation.type.includes("portrait")) {
+          // Portrait mode
+          console.log('Portrait');
+      } else {
+          // Landscape mode
+          console.log('Landscape');
+      }
+  });
+  ```
 <br/>
 
 #### 🔗 [LIVE SITE LINK](http://montasim-dev.web.app/login-and-register-page/)
