@@ -21,7 +21,7 @@
 - [Used Colors](#used-colors)
 - [Used Resources](#used-resources)
 - [My Learning](#my-learning)
-	- [How to use multiple media queries?](#how-to-use-multiple-media-query)
+	- [How to use multiple media queries?](#how-to-use-multiple-media-queries)
     - [How to access CSS variables using javascript?](#how-to-access-css-variables-using-javascript)
     - [How to change CSS variable value using javascript?](#how-to-change-css-variable-value-using-javascript)
     - [How to detect if the device is in portrait or landscape mode?](#how-to-detect-if-the-device-is-in-portrait-or-landscape-mode)
@@ -70,7 +70,7 @@
 
 ### MY LEARNING
 
-- How to use multiple media queries?
+#### How to use multiple media queries?
 
   ```css
   @media only screen and (max-width: 480px) {
@@ -86,7 +86,7 @@
   }
   ```
   
-- How to access CSS variables using javascript?
+#### How to access CSS variables using javascript?
   ```css
   :root {
       --deviceWidth: 375px;
@@ -102,7 +102,7 @@
   console.log({defaultDeviceHeight});
   ```
 
-- How to change CSS variable value using javascript?
+#### How to change CSS variable value using javascript?
   ```css
   :root {
       --deviceWidth: 375px;
@@ -119,7 +119,7 @@
   console.log({deviceHeight});
   ```
 
-- How to detect if the device is in portrait or landscape mode?
+#### How to detect if the device is in portrait or landscape mode?
   ```javascript
   screen.orientation.addEventListener("change", function() {
       if (screen.orientation.type.includes("portrait")) {
