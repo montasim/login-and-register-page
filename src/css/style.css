@@ -326,9 +326,70 @@ header {
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
     header {
         padding: 25px 30px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navigation a {
+        font-size: 1em;
+        margin-left: 20px;
+    }
+
+    .navigation .btnLogin-popup {
+        width: 100px;
+        height: 45px;
+        font-size: 1em;
+        margin-left: 25px;
+    }
+
+    .wrapper {
+        margin: 20px 20px 0;
+        border-radius: 20px;
+    }
+
+    .wrapper .form-box {
+        padding: 25px;
+    }
+
+    .wrapper .icon-close {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5em;
+        border-bottom-left-radius: 20px;
+    }
+
+    .form-box h2 {
+        font-size: 1.8em;
+    }
+
+    .input-box {
+        height: 55px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        padding: 0 30px 0 5px;
+    }
+
+    .remember-forgot {
+        margin: -5px 0 15px;
+    }
+
+    .btn {
+        height: 55px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    header {
+        padding: 25px 30px;
+        margin: 0 0 20px;
     }
 
     .logo {

@@ -34,3 +34,17 @@ console.log({defaultDeviceWidth});
 console.log({defaultDeviceHeight});
 console.log({deviceWidth});
 console.log({deviceHeight});
+
+screen.orientation.addEventListener("change", function(e) {
+    let deviceOrientation = window.matchMedia("(orientation: portrait)");
+
+    deviceOrientation.addEventListener("change", function(e) {
+        if(e.matches) {
+            // Portrait mode
+            console.log('Portrait');
+        } else {
+            // Landscape
+            console.log('Landscape');
+        }
+    })
+});
