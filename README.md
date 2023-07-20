@@ -73,7 +73,7 @@
 
 - Responsive design
 - Custom CSS variables
-- Manipulation of CSS variable using JavaScript
+- Manipulation of CSS variables using JavaScript
 - Device orientation detection
 
 <br/>
@@ -143,7 +143,7 @@
   ```
 <br/>
 
-#### 🔗 [LIVE SITE LINK](http://montasim-dev.web.app/login-and-register-page/)
+#### 🔗 [LIVE SITE LINK](https://montasim.github.io/login-and-register-page/)
 
 <br/>
 
@@ -152,57 +152,56 @@
 - [Codehal](https://www.youtube.com/watch?v=p1GmFCGuVjw)
 
 <br/>
-
-<br/>
 <br/>
 <br/>
 <br/>
 
 <!-- feel free to contact me text start -->
-<div> 
-    <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=370&height=21&lines=FEEL+FREE+TO+CONTACT+ME+ANYTIME" alt="feel free to contact me svg" />
+<div align="center"> 
+    <img loading="lazy" width="21" src="./media/icons/link.png" alt="postbox icon" />
+    <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=385&height=21&lines=FEEL+FREE+TO+CONTACT+ME+ANYTIME" alt="feel free to contact me" />
 </div>
 <!-- feel free to contact me text end -->
 
 <br/>
 
 <!-- social media links start -->
-<table>
+<table align="center">
     <thead align="center">
         <tr>
             <th>
-                <a href="https://www.linkedin.com/in/montasim">
-                    <img alt="Linkedin icon" src="https://cdn.simpleicons.org/linkedin" width="35px">
+                <a href="https://www.linkedin.com/in/montasim" title="linkedin.com/in/montasim">
+                    <img loading="lazy" alt="LinkedIn icon" src="https://cdn.simpleicons.org/linkedin/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="https://www.github.com/montasim">
-                    <img alt="GitHub icon" src="https://cdn.simpleicons.org/github/white" width="35px">
+                <a href="https://www.github.com/montasim" title="github.com/montasim">
+                    <img loading="lazy" alt="GitHub icon" src="https://cdn.simpleicons.org/github/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="https://stackoverflow.com/users/20348607/montasim">
-                    <img alt="StackOverflow icon" src="https://cdn.simpleicons.org/stackoverflow" width="35px">
+                <a href="https://stackoverflow.com/users/20348607/montasim" title="stackoverflow.com/users/20348607/montasim">
+                    <img loading="lazy" alt="StackOverflow icon" src="https://cdn.simpleicons.org/stackoverflow/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="https://montasim-dev.web.app/">
-                    <img alt="web icon" src="https://cdn.simpleicons.org/googlechrome" width="35px">
+                <a href="https://montasim-dev.web.app/" title="montasim-dev.web.app">
+                    <img loading="lazy" alt="web icon" src="https://cdn.simpleicons.org/googlechrome/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="mailto:montasimmamun@gmail.com">
-                    <img alt="Gmail icon" src="https://cdn.simpleicons.org/gmail" width="35px">
+                <a href="mailto:montasimmamun@gmail.com" title="montasimmamun@gmail.com">
+                    <img loading="lazy" alt="Gmail icon" src="https://cdn.simpleicons.org/gmail/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="https://www.facebook.com/montasimmamun/">
-                    <img alt="Facebook icon" src="https://cdn.simpleicons.org/facebook" width="35px">
+                <a href="https://www.facebook.com/montasimmamun/" title="facebook.com/montasimmamun">
+                    <img loading="lazy" alt="Facebook icon" src="https://cdn.simpleicons.org/facebook/EB008B" width="35px">
                 </a>
             </th>
             <th>
-                <a href="https://twitter.com/montasimmamun">
-                    <img alt="Twitter icon" src="https://cdn.simpleicons.org/twitter" width="35px">
+                <a href="https://twitter.com/montasimmamun" title="twitter.com/montasimmamun">
+                    <img loading="lazy" alt="Twitter icon" src="https://cdn.simpleicons.org/twitter/EB008B" width="35px">
                 </a>
             </th>
         </tr>
