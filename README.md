@@ -157,16 +157,15 @@
 <br/>
 
 <!-- feel free to contact me text start -->
-<div align="center"> 
-    <img loading="lazy" width="21" src="./media/icons/link.png" alt="postbox icon" />
-    <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=385&height=21&lines=FEEL+FREE+TO+CONTACT+ME+ANYTIME" alt="feel free to contact me" />
+<div>
+    <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=370&height=21&lines=FEEL+FREE+TO+CONTACT+ME+ANYTIME" alt="feel free to contact me" />
 </div>
 <!-- feel free to contact me text end -->
 
 <br/>
 
 <!-- social media links start -->
-<table align="center">
+<table>
     <thead align="center">
         <tr>
             <th>
